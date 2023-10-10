@@ -1,0 +1,1 @@
+web: gunicorn amelia.wsgi --log-file -
