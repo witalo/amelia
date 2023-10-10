@@ -95,12 +95,12 @@ WSGI_APPLICATION = 'amelia.wsgi.application'
 # }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'railway',
-        'USER': 'root',
-        'PASSWORD': '0SVkRONnQDFjHS8wh3Gg',
-        'HOST': 'containers-us-west-156.railway.app',
-        'PORT': 6285,
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'amelia',
+        'USER': 'postgres',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 # Password validation
